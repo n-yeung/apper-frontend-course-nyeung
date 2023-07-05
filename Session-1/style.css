@@ -1,0 +1,136 @@
+.gcash-logo {
+    width: 100px;
+    height: 60px;
+    margin-left: 40px;
+    margin-top: 5px;
+    border: 1px solid black;
+}
+
+.top-bar {
+    display: flex;
+    align-items: center;
+    border: 1px solid black;
+    justify-content: space-around;
+    white-space: nowrap;
+}
+
+.top-bar img {
+    margin-right: 100px;
+}
+
+.square {
+    height: 20px;
+    background-color: gray;
+    text-align: center;
+    color: white;
+}
+
+.searchbar{
+    width: 300px;
+    height: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    background-color: aquamarine;
+}
+
+.searchicon{
+    height: 15px;
+    width: 15px;
+}
+
+/* everything up is just the first line */
+/* everything below is the second bar */
+
+.subjectsbar{
+    display: flex;
+    align-items: center;
+    border: 1px solid black;
+    justify-content: space-around;
+    font-size: small;
+    white-space: nowrap;
+    padding-bottom: 1rem;
+}
+
+.welcomebackbar{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    border: 1px solid black;
+}
+
+.welcomebackbar > h3 {
+    height: 120px;
+    width: 120px;
+    background-color: black;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    border: 1px solid black;
+}
+
+.insidewelcomebackbar{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+}
+
+.pickupwhereyouleftoff{
+    display: flex;
+    gap: 30px;
+    border: 1px solid black;
+}
+
+.courseslearningpaths{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+}
+
+.courseslearningpathsicons{
+    display: flex;
+    gap: 50px;
+    justify-content: space-evenly;
+}
+
+.squareandicon{
+    width: 500px;
+    height: 150px;
+    border: 1px solid blue;
+    display: flex;
+
+}
+
+.squareandiconimage {
+    width: 100px;
+    height: 100%;
+    background-color: aqua;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: red;
+}
+
+.squareicondescription{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+    margin-left: 1rem;
+}
+
+.squareicondescriptionwords{
+    border: 1px solid black;
+}
+
+.rightarrow{
+    border: 1px solid black;
+    position: absolute;
+    bottom: 50px;
+}
+
+.rightarrowposition{
+    position: relative;
+}
+
